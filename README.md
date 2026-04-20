@@ -116,6 +116,21 @@ To update:
 gemini extensions update superpowers
 ```
 
+### Mistral Vibe Code
+
+Add superpowers to the `plugin` array in your `mistral-vibe.json`:
+
+```json
+{
+  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+}
+```
+
+Restart Mistral Vibe Code. Verify by asking: "Tell me about your superpowers"
+
+**Official docs:** [Mistral Vibe Agents & Skills](https://docs.mistral.ai/mistral-vibe/agents-skills)
+**Detailed docs:** [docs/README.mistral-vibe.md](docs/README.mistral-vibe.md)
+
 ## The Basic Workflow
 
 1. **brainstorming** - Activates before writing code. Refines rough ideas through questions, explores alternatives, presents design in sections for validation. Saves design document.
