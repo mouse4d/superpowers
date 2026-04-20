@@ -6,6 +6,8 @@
 
 ## Installation
 
+### Option 1: Plugin Installation (Recommended)
+
 Add superpowers to the `plugin` array in your `mistral-vibe.json` (global or project-level):
 
 ```json
@@ -14,9 +16,20 @@ Add superpowers to the `plugin` array in your `mistral-vibe.json` (global or pro
 }
 ```
 
-Restart Mistral Vibe Code. That's it — the plugin auto-installs and registers all skills.
+Restart Mistral Vibe Code. The plugin auto-installs and registers all skills.
 
-Verify by asking: "Tell me about your superpowers"
+### Option 2: Manual Skill Setup
+
+Follow the official Mistral Vibe documentation for manual skill setup:
+
+1. Create skills directory:
+```bash
+mkdir -p ~/.vibe/skills/
+```
+
+2. Clone or copy Superpowers skills to `~/.vibe/skills/`
+
+3. Verify by asking: "Tell me about your superpowers"
 
 ## Usage
 
